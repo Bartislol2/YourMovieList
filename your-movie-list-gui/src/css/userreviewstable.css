@@ -1,0 +1,17 @@
+table {
+    text-align: center;
+    background: #ffffff;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 5px;
+}
+
+th {
+    background: #0000ff;
+    color: #ffffff;
+}
+
+

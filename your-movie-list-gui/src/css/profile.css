@@ -1,0 +1,13 @@
+.user-profile {
+    width: 100%;
+}
+
+.profile-contents h2 {
+    margin-bottom: 16px;
+}
+
+.user-reviews {
+    padding: 16px;
+    display: flex;
+    align-items: center;
+}

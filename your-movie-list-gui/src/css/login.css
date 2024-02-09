@@ -1,0 +1,103 @@
+.login-page {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+
+.login-form {
+    background-color: #ffffff;
+    width: 650px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    border: 1px solid rgb(30, 48, 80);
+}
+
+
+.welcome-text {
+    margin-bottom: 20px;
+}
+
+.input-username {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.input-password {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.login-button, .create-account-button, .signup-button, .create-account-button-disabled {
+    border: 1px solid rgb(30, 48, 80);
+    padding: 5px;
+    width: 125px;
+    height: 25px;
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-button, .create-account-button {
+    background-color: #0000ff;
+}
+
+
+.login-button p {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+.create-account-button p {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.login-button, .create-account-button:hover {
+    cursor: pointer;
+}
+
+.create-account-button-disabled {
+    background-color: rgba(100, 100, 100, 0.5);
+}
+
+.create-account-button-disabled:hover {
+    cursor: not-allowed;
+}
+
+.create-account-button-disabled p {
+    color: rgba(25, 25, 25, 0.5);
+    font-size: 16px;
+}
+
+.signup-button p {
+    color: #0000ff;
+    font-size: 16px;
+    font-weight: bold;
+}
+.signup-button:hover {
+    cursor: pointer;
+}
+
+.error-text {
+    color: #ff0000;
+    text-align: center;
+}
+
+.success-text {
+    text-align: center;
+}
+
+.success-text a {
+    color: #0000ff;
+}

@@ -1,0 +1,54 @@
+.user-button {
+    max-width: 180px;
+    padding: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    position: relative;
+}
+
+.user-button p {
+    color: #ffffff;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 0 5px;
+    max-width: 120px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.user-button:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+    cursor: pointer;
+}
+
+.user-button .user-menu {
+    position: absolute;
+    display: block;
+    background-color: #0000ff;   
+    border: 1px solid #000000;
+    top: 100%;
+    width: 100%;
+    z-index: 10;
+}
+
+.user-menu-button {
+    width: 100%;
+    border-bottom: 1px solid #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0;
+}
+
+.user-menu-button:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+    cursor: pointer;
+}
+
+.user-menu-button p {
+    text-align: center;
+}

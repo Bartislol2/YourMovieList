@@ -1,0 +1,19 @@
+.nav-button {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.nav-button p {
+    color: #ffffff;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.nav-button:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+    cursor: pointer;
+}

@@ -1,0 +1,48 @@
+.homepage {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.recommended {
+    margin-top: 16px;
+}
+
+.entries {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 16px 0;
+    padding: 0 16px 16px 16px;
+}
+
+.movie-preview {
+    width: 330px;
+    height: 330px;
+    margin: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.movie-preview h3 {
+    max-width: 300px;
+    margin-top: 5px;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+}
+
+.movie-poster {
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 30px;
+    border: 2px solid rgb(30, 48, 80);
+}
+
+.movie-poster:hover {
+    cursor: pointer;
+    border: 2px solid #0000ff;
+}

@@ -1,0 +1,31 @@
+
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+
+
+.content {
+  margin: 16px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  width: 90%;
+  flex: 1;
+}
+
+.footer {
+  border-top: 1px solid rgb(30, 48, 80);
+  padding: 20px;
+  background-color: #ffffff;
+  margin-top: auto;
+}
+
+.App {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
